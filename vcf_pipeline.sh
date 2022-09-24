@@ -22,10 +22,10 @@ module load bcftools/1.4
 
 SCRIPT_NAME=$(basename $0)
 
-RAW=/mnt/scratch/users/bio_293_ual/alvarobm/BGI_data/test_raw
-RESOURCES=/mnt/scratch/users/bio_293_ual/alvarobm/BGI_data/new_run_10.1002_pld3.404/RESOURCES
-OUTPUT=/mnt/scratch/users/bio_293_ual/alvarobm/BGI_data/new_run_10.1002_pld3.404/OUTPUT
-PICARD=/mnt/home/soft/picard/programs/x86_64/2.7.1
+RAW=/path/to/test_raw
+RESOURCES=/path/to/RESOURCES
+OUTPUT=/path/to/OUTPUT
+PICARD=/path/to/soft/picard/programs/x86_64/2.7.1
 THREADS=52
 CORES=52
 
